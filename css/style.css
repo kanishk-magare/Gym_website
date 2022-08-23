@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+/* CSS Reset  */
+body {
+    margin: 0;
+    padding: 0;
+    background: url(/img/bg.jpg);
+    color: aliceblue;
+    font-family: "Lora Script", sans-serif;
+}
+
+.left {
+
+
+    display: inline-block;
+    position: absolute;
+    left: 40px;
+    top: 20px;
+}
+
+.mid {
+    display: block;
+    width: 50%;
+    margin: 18px auto;
+
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+    color: rgba(236, 237, 237, 0.802);
+    text-decoration: none;
+    padding: 20px 20px;
+    font-weight: 550;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: white;
+
+}
+
+.left img {
+    padding-left: 20px;
+    width: 58px;
+    filter: invert(100%);
+}
+
+.left div {
+    text-align: center;
+    font-family: "Kaushan Script", sans-serif;
+}
+
+.btn {
+    margin: 0px 9px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: "Montserrat Script", sans-serif;
+    cursor: pointer;
+    border: 2px gray solid;
+}
+
+.btn:hover {
+    background-color: rgb(105, 103, 103);
+}
+
+.container {
+    border: 2px solid white;
+    margin: 100px 70px;
+    padding: 50px 33px;
+    border-radius: 28px;
+    width: 36%;
+}
+
+#btn1 {
+    display: block;
+    width: 50%;
+    height: 35px;
+    margin: 20px auto;
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 400px;
+    padding: 10px;
+    margin: 10px auto;
+    font-size: 17px;
+    border-radius: 18px;
+    font-family: "Montserrat Script", sans-serif;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.group-gender {
+    padding: 0px 32px;
+}
+
+label {
+    padding: 35px;
+}
+
+.phone {
+    padding: 5px;
+    margin: 2px 8px;
+
+}
+
+.phone label {
+    padding: 23px;
+    margin:
+}
+
+.container2 {
+    display: inline-block;
+    /* border: 2px solid white; */
+    border-radius: 16px;
+    width: 500px;
+    text-align: center;
+    position: relative;
+    bottom: 550px;
+    left: 900px;
+
+}
+
+.txt1 {
+    position: relative;
+    top: 130px;
+    font-family: 'Bungee', cursive;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: 'Bungee', cursive;
+    color: #e8eaed;
+}
+
+
+.txt3 {
+    position: relative;
+    bottom: 130px;
+    font-family: 'Bungee', cursive;
+}
